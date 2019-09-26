@@ -1,0 +1,37 @@
+h1 {
+    padding: 0 190px 0 15px;
+    margin-top: 20px;
+    text-decoration: line-through; 
+    text-shadow: 2px -12px 4px rgba(246,55,245,0.91);
+    
+}
+.bodyMain{
+    border: #00000f 1px solid;
+  border-color: #00000f;
+  
+}
+.main-photo_0{
+    border: #00000f 3px solid;
+  border-color: #00000f;
+}
+img.mPhoto_0 {
+  width: 200px;
+  height: 100px;
+}
+img.mPhoto_0 {
+  border: #0101df 3px solid;
+  border-color: #0101df;
+  -webkit-box-shadow: 10px 6px 0px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 6px 0px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 6px 0px 1px rgba(0, 0, 0, 0.75);
+}
+img.mPhoto_1 {
+    padding: 20px 20px;
+  width: 200px;
+  height: 100px;
+  border: rgb(223, 1, 1) 4px dashed;
+  border-color: rgb(223, 1, 1);
+  -webkit-box-shadow: 10px 6px 8px 7px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 10px 6px 8px 7px rgba(0, 0, 0, 0.71);
+  box-shadow: 10px 6px 8px 7px rgba(0, 0, 0, 0.71);
+}

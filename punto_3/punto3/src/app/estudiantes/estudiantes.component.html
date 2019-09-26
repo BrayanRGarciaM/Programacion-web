@@ -1,0 +1,12 @@
+<div class="col-lg-10">
+    <select  id="secondChoice" multiple="multiple" [(ngModel)]="selectedStudents1">
+        <option [value]="estudiante" *ngFor="let estudiante of estudiantes1"  >{{estudiante.nombre}}</option>
+    </select>
+  <button class="oneIzqToDer" role="button" (click)='passOneToDer()'> > </button>
+  <button class="oneDerToIzq" (click)='passOneToIzq()'> < </button>
+  <button class="allIzqToDer" (click)='passAllToDer()'> >> </button>
+  <button class="allDerToIzq" (click)='passAllToIzq()'> << </button>
+  <select id="secondChoice" multiple=true [(ngModel)]="selectedStudents1">
+      <option *ngFor="let estudiante of estudiantes2" [value]="estudiante">{{estudiante.nombre}}</option>
+    </select>
+</div>
